@@ -13,6 +13,8 @@
  *        means that these code segments are wrapped by a 
  *        public static void main(String[] args){} method in
  *        a trivial java class.
+ *        
+ *        ANSWERS : DEECE EEAEE
  */
 ```
 ### 1: 
@@ -28,7 +30,7 @@ public static int anotherMethod(int value){
 }
 
 //call from main():
-int var = 10;
+int var = 15;
 method(var);  //final line
 ```
 If we run an inspection on the code, what will be the final value of var on `//final line`?
